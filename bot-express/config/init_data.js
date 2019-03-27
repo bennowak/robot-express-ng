@@ -22,8 +22,8 @@ mongoose.connect(
     { useNewUrlParser: true }
 )
 .then(() => {
-    console.log( `Successfully Connected to the Mongodb Database ` );
-    console.log('Initializing rvbotomat MongoDB datastore.');
+    console.log( `Successfully Connected to the ${mdb.db} Mongodb Database ` );
+    console.log(`Initializing ${mdb.db} MongoDB datastore.`);
     initializeData();
 })
 .finally( () => {
