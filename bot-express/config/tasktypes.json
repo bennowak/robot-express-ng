@@ -1,0 +1,75 @@
+[
+  {
+    "description": "do the dishes",
+    "eta": 1000,
+    "points": 50,
+    "restrict": []
+  },
+  {
+    "description": "sweep the house",
+    "eta": 3000,
+    "points": 200,
+    "restrict": []
+  },
+  {
+    "description": "do the laundry",
+    "eta": 10000,
+    "points": 100,
+    "restrict": []
+  },
+  {
+    "description": "take out the recycling",
+    "eta": 4000,
+    "points": 5,
+    "restrict": []
+  },
+  {
+    "description": "make a sammich",
+    "eta": 7000,
+    "points": 10,
+    "restrict": ["Bipedal"]
+  },
+  {
+    "description": "mow the lawn",
+    "eta": 20000,
+    "points": 100,
+    "restrict": ["Bipedal", "Unipedal", "Quadrupedal"]
+  },
+  {
+    "description": "rake the leaves",
+    "eta": 18000,
+    "points": 500,
+    "restrict": ["Bipedal", "Unipedal", "Quadrupedal"]
+  },
+  {
+    "description": "give the dog a bath",
+    "eta": 14500,
+    "points": 50,
+    "restrict": ["Bipedal", "Quadrupedal"]
+  },
+  {
+    "description": "bake some cookies",
+    "eta": 8000,
+    "points": 25,
+    "restrict": ["Bipedal", "Unipedal", "Quadrupedal"]
+  },
+  {
+    "description": "wash the car",
+    "eta": 5000,
+    "points": 100,
+    "restrict": ["Bipedal", "Unipedal", "Quadrupedal"]
+  },
+  {
+    "description": "fly around the neighborhood",
+    "eta": 20000,
+    "points": 500,
+    "restrict": ["Aeronautical"]
+  },
+  {
+    "description": "paint the ceilling",
+    "eta": 7000,
+    "points": 700,
+    "restrict": ["Arachnid"]
+  }
+
+]

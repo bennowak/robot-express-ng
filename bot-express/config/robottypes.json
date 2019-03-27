@@ -1,0 +1,32 @@
+[
+  {
+    "Key" : "UNIPEDAL",
+    "name" : "Unipedal",
+    "description" : "A bot that locomotes with a single 'foot'"
+  },
+  {
+    "Key" : "BIPEDAL",
+    "name" : "Bipedal",
+    "description" : "A bot that moves around on two feet"
+  },
+  {
+    "Key" : "QUADUPEDAL",
+    "name" : "Quadrupedal",
+    "description" : "A four-legged bot"
+  },
+  {
+    "Key" : "ARACHNID",
+    "name" : "Arachnid",
+    "description" : "An eight-legged 'spider' bot"
+  },
+  {
+    "Key" : "RADIAL",
+    "name" : "Radial",
+    "description" : "A 'wheel-like' bot"
+  },
+  {
+    "Key" : "AERONAUTICAL",
+    "name" : "Aeronautical",
+    "description" : "A flying bot"
+  }
+]

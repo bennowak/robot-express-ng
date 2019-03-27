@@ -1,0 +1,52 @@
+[
+  {
+    "id" : 1,
+    "name" : "Robbie",
+    "type" : "Bipedal"
+  },
+  {
+    "id" : 2,
+    "name" : "Betty",
+    "type" : "Unipedal"
+  },
+  {
+    "id" : 3,
+    "name" : "BB8",
+    "type" : "Radial"
+  },
+  {
+    "id" : 4,
+    "name" : "D4QP",
+    "type" : "Quadrupedal"
+  },
+  {
+    "id" : 5,
+    "name" : "Crusher",
+    "type" : "Quadrupedal"
+  },
+  {
+    "id" : 6,
+    "name" : "Bender",
+    "type" : "Bipedal"
+  },
+  {
+    "id" : 7,
+    "name" : "Joey Mousepad",
+    "type" : "Aeronautical"
+  },
+  {
+    "id" : 8,
+    "name" : "Beelzebot",
+    "type" : "Bipedal"
+  },
+  {
+    "id" : 9,
+    "name" : "Number Six",
+    "type" : "Arachnid"
+  },
+  {
+    "id" : 10,
+    "name" : "Bishop",
+    "type" : "Bipedal"
+  }
+]

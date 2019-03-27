@@ -1,0 +1,7 @@
+<div *ngIf="robotDetail">
+  <h2>{{robotDetail.name | uppercase}} Details</h2>
+  <div><span>id: </span>{{robotDetail.id}}</div>
+  <div><span>name: </span>{{robotDetail.name}}</div>
+  <div><span>type: </span>{{robotDetail.type}}</div>
+</div>
+<button (click)="goBack()">go back</button>

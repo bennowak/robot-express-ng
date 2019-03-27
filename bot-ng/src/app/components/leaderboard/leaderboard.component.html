@@ -1,0 +1,9 @@
+<!-- LeaderboardComponent-->
+<h3>Top Robots</h3>
+<div class="grid grid-pad">
+  <a *ngFor="let robot of robots" class="col-1-4" routerLink="/robots/detail/{{robot.id}}">
+    <div class="module robot">
+      <h4>#{{robots.indexOf(robot) + 1}} - {{robot.name}}</h4>
+    </div>
+  </a>
+</div>

@@ -1,0 +1,34 @@
+<h2>Add a Bot</h2>
+<form [formGroup]="robotForm" (ngSubmit)="onSubmit()">
+
+  <h5 *ngIf="success">Your form is valid!</h5>
+
+  <label for="robotName">
+    Robot Name:
+    <input id="robotName" type="text" formControlName="robotName">
+    <div *ngIf="submitted && robotForm.controls.robotName.errors" class="error">
+      <div *ngIf="robotForm.controls.robotName.errors.required">Robot name is required</div>
+    </div>
+  </label>
+
+  <label for="robotType">
+
+    <select id="robotType" formControlName="robotType">
+      <option [value]="type.name" *ngFor="let type of typeNames">             {{type.name}}</option>
+    </select>
+    <div *ngIf="submitted && robotForm.controls.robotType.errors" class="error">
+      <div *ngIf="robotForm.controls.robotType.errors.required">A message is required</div>
+    </div>
+  </label>
+
+  <span class="submit_btn"><input type="submit" value="Create New Robot" class="cta"></span>
+
+</form>
+
+<div *ngIf="submitted" class="results">
+  <strong>Name:</strong>
+  <span>{{ robotForm.controls.robotName.value }}</span>
+
+  <strong>Message:</strong>
+  <span>{{ robotForm.controls.robotName.value }}</span>
+</div>
